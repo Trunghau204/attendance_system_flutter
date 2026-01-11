@@ -148,30 +148,6 @@ flutter run -d <device_id>
 
 ---
 
-## 📚 TÀI LIỆU HƯỚNG DẪN
-
-### Dành cho thành viên nhóm:
-
-1. **[WORK_DIVISION.md](docs/WORK_DIVISION.md)**
-
-   - Phân công công việc chi tiết
-   - Code của từng thành viên
-   - Câu hỏi thầy có thể hỏi
-   - Checklist bảo vệ
-
-2. **[TECHNICAL_GUIDE.md](docs/TECHNICAL_GUIDE.md)**
-   - Kiến trúc hệ thống
-   - Luồng hoạt động chi tiết
-   - API endpoints
-   - Common issues & solutions
-
-### Tài liệu chung:
-
-- [Flutter Documentation](https://flutter.dev/docs)
-- [Dart Language Tour](https://dart.dev/guides/language/language-tour)
-- [Geolocator Package](https://pub.dev/packages/geolocator)
-- [Mobile Scanner Package](https://pub.dev/packages/mobile_scanner)
-
 ---
 
 ## 📱 CHỨC NĂNG CHÍNH
@@ -198,50 +174,6 @@ flutter run -d <device_id>
 
 ---
 
-## 🎓 HƯỚNG DẪN CHO THÀNH VIÊN
-
-### 1. Trần Trung Hậu (Leader)
-
-**Files cần nắm:** api_service.dart, login_screen.dart, attendance_bottom_sheet.dart, statistics_card.dart  
-**Xem chi tiết:** [WORK_DIVISION.md](docs/WORK_DIVISION.md#1-trần-trung-hậu-leader---40)
-
-### 2. Trương Phước Hưng
-
-**Files cần nắm:** user_management_screen.dart, user_form_dialog.dart, admin_approval_screen.dart  
-**Xem chi tiết:** [WORK_DIVISION.md](docs/WORK_DIVISION.md#2-trương-phước-hưng-20)
-
-### 3. Nguyễn Trần Đăng Khoa
-
-**Files cần nắm:** shift_management_screen.dart, shift_form_dialog.dart, admin_schedule_screen.dart  
-**Xem chi tiết:** [WORK_DIVISION.md](docs/WORK_DIVISION.md#3-nguyễn-trần-đăng-khoa-20)
-
-### 4. Nguyễn Tuấn Vũ
-
-**Files cần nắm:** qr_scanner_screen.dart, leave_request_screen.dart, attendance_tab.dart  
-**Xem chi tiết:** [WORK_DIVISION.md](docs/WORK_DIVISION.md#4-nguyễn-tuấn-vũ-20)
-
----
-
-## 🐛 COMMON ISSUES
-
-### 1. "Location services are disabled"
-
-Bật GPS trên device/emulator: Settings > Location > On
-
-### 2. "Failed to load data from API"
-
-Kiểm tra backend đang chạy và baseUrl trong api_service.dart
-
-### 3. "Token expired"
-
-Đăng xuất và đăng nhập lại (Token JWT hết hạn sau 24h)
-
-### 4. "Camera permission denied"
-
-Vào Settings > Apps > Permissions > Cho phép Camera
-
----
-
 ## 📞 LIÊN HỆ
 
 **Leader:** Trần Trung Hậu - tranhau5065@gmail.com
@@ -252,8 +184,3 @@ Vào Settings > Apps > Permissions > Cho phép Camera
 
 MIT License - Dự án học tập, không dùng cho mục đích thương mại.
 
----
-
-**Cập nhật lần cuối:** 11/01/2026  
-**Version:** 1.0  
-**Status:** ✅ Hoàn thành
