@@ -29,7 +29,7 @@ Hệ thống chấm công hiện đại cho doanh nghiệp, hỗ trợ:
 
 **Backend:**
 
-- ASP.NET Core 6.0
+- ASP.NET Core 9.0
 - Entity Framework Core
 - SQL Server
 - JWT Authentication
