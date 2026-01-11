@@ -1,0 +1,66 @@
+name: attendance_system_flutter
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP & Network
+  http: ^1.1.0
+  cookie_jar: ^4.0.8
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+
+  # UI/UX Enhancement
+  flutter_easyloading: ^3.0.5
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.0
+
+  # Calendar & Timeline
+  table_calendar: ^3.0.9
+  easy_date_timeline: ^1.1.1
+
+  # Image Handling
+  cached_network_image: ^3.3.0
+  image_picker: ^1.0.5
+  crop_your_image: ^1.0.2
+
+  # Location & Permission
+  geolocator: ^10.1.0
+  permission_handler: ^11.1.0
+
+  # QR Code Scanner
+  mobile_scanner: ^3.5.5
+  qr_flutter: ^4.1.0
+
+  # Notifications - TẠM THỜI COMMENT (Lỗi Android 16)
+  # flutter_local_notifications: ^16.2.0
+
+  # Utilities
+  connectivity_plus: ^5.0.2
+  fluttertoast: ^8.2.4
+  intl: ^0.19.0
+
+  fl_chart: ^0.65.0
+  open_file: ^3.3.2
+  share_plus: ^7.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets (thêm sau khi có file ảnh)
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
